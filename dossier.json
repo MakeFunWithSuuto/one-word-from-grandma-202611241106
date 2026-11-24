@@ -1,5 +1,5 @@
 {
- "entry": "CHATGEPETTO",
+ "entry": "Chadgpt",
  "file": "/output/entry.txt",
- "main.ts": "// One Word From Grandma: write the single word grandma texts about AI.\n// She hears \"ChatGPT\" as Geppetto, the old woodcarver whose puppet came alive,\n// misspells him the way most people do, and her caps lock is stuck on.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst GRANDMA_WORD = \"CHATGEPETTO\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", GRANDMA_WORD, \"utf8\");\n"
+ "main.ts": "// One Word From Grandma: write the single word grandma texts about AI.\n// She has decided ChatGPT is a polite young man named Chad who answers\n// all her questions, so that is what she calls him.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst GRANDMA_WORD = \"Chadgpt\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", GRANDMA_WORD, \"utf8\");\n"
 }
